@@ -5,7 +5,7 @@ import os
 import tests
 
 
-def test_registration_form():
+def test_student_registration_form():
     browser.open('/automation-practice-form')
     '''
     # might be also needed:
