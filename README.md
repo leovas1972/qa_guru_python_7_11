@@ -1,2 +1,2 @@
 ### PageObjects
-mid-level-step-objects
+high-level-step-objects
