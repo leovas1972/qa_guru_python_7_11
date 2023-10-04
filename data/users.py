@@ -28,3 +28,8 @@ class User:
     address: str
     state: str
     city: str
+
+student_leo = User( 'Leo VAS', 'name@example.com', Gender.male, '1234567891',
+        date(1972,9,15), 'Computer Science',Hobbies.reading,'foto_1.jpg',
+        'Moscowskaya Street 18','NCR Delhi')
+
