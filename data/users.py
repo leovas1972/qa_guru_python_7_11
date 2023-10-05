@@ -23,13 +23,24 @@ class User:
     phone_number: str
     date_of_birth: date
     subjects: str
-    hobbies: Hobbies
+    hobbies: Hobbies.reading
     picture_path: str
     address: str
     state: str
     city: str
 
-student_leo = User( 'Leo VAS', 'name@example.com', Gender.male, '1234567891',
-        date(1972,9,15), 'Computer Science',Hobbies.reading,'foto_1.jpg',
-        'Moscowskaya Street 18','NCR Delhi')
+student_leo = User(
+    first_name='Leo',
+    last_name='VAS',
+    email='name@example.com',
+    gender=Gender.male,
+    phone_number='1234567891',
+    date_of_birth=date(1972,9,15),
+    subjects='Computer Science',
+    hobbies=Hobbies.reading,
+    picture_path='foto_1.jpg',
+    address='Moscowskaya Street 18',
+    state='NCR',
+    city='Delhi'
+)
 
